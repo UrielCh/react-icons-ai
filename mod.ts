@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.1/mod.ts"`
+ * ```ts
+ * import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { AiFillAccountBook } from "react-icons/ai"`
+ * ```ts
+ * import { AiFillAccountBook } from "react-icons/ai"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook.ts"`
+ * ```ts
+ * import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import AiFillAccountBook from "react-icons/ai/AiFillAccountBook.ts"`
+ * ```ts
+ * import AiFillAccountBook from "react-icons/ai/AiFillAccountBook.ts"
+ * ```
  * 
  * @module
  */
