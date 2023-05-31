@@ -15,20 +15,29 @@
  * ```json
  * {
  *   "imports": {
- *     "preact": "https://esm.sh/preact@10.15.1",
+ *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/ai": "https://deno.land/x/react_icons_ai@1.0.0//mod.ts",
+ *     "react-icons/ai":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.1/mod.ts",
+ *     "react-icons/ai/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai/ico/",
  *   }
  * }
  * ```
  * 
  * ## Direct import sample
  * 
- * `import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.0/mod.ts"`
+ * `import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.1/mod.ts"`
  * 
  * ## import_map import sample
  * 
  * `import { AiFillAccountBook } from "react-icons/ai"`
+ * 
+ * ## minimal import
+ * 
+ * `import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook.ts"`
+ * 
+ * ## minimal import default
+ * 
+ * `import AiFillAccountBook from "react-icons/ai/AiFillAccountBook.ts"`
  * 
  * @module
  */
