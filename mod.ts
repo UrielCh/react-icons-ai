@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/ai":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.5/mod.ts",
- *     "react-icons/ai/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.5/ico/",
+ *     "react-icons/ai":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.6/mod.ts",
+ *     "react-icons/ai/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.6/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Direct import sample
  * 
  * ```ts
- * import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.5/mod.ts"
+ * import { AiFillAccountBook } from "https://deno.land/x/react_icons_ai@1.0.6/mod.ts"
  * ```
  * 
  * ## import_map import sample
