@@ -1,6 +1,9 @@
 {
   "lock": false,
   "importMap": "./import_map.json",
+  "name": "@preact-icons/ai",
+  "version": "1.0.10",
+  "exports": "./mod.ts",
   "compilerOptions": {
     "lib": [
       "dom",

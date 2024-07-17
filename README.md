@@ -13,11 +13,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.9",
     "preact": "npm:preact@10.22.1",
     "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
     "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/ai": "jsr:@preact-icons/ai@^1.0.0/mod.ts",
-    "react-icons/ai/": "jsr:@preact-icons/ai@^1.0.0/ico",
+    "react-icons/ai": "jsr:@preact-icons/ai@^1.0.10/mod.ts",
+    "react-icons/ai/": "jsr:@preact-icons/ai@^1.0.10/ico/",
   }
 }
 ```
