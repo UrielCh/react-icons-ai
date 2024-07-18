@@ -42,5 +42,5 @@ import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook"
 or using default export
 
 ```ts
-import AiFillAccountBook from "react-icons/ai/AiFillAccountBook.ts"
+import AiFillAccountBook from "react-icons/ai/AiFillAccountBook"
 ```
