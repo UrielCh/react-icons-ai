@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/ai)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/ai": "jsr:@preact-icons/ai@^1.0.11/mod.ts",
-    "react-icons/ai/": "jsr:@preact-icons/ai@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/ai
+dnpx jsr add @preact-icons/ai
+pnpm dlx jsr add @preact-icons/ai
+bunx jsr add @preact-icons/ai
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib ai
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { AiFillAccountBook } from "jsr:preact-icons/ai@1.0.11/mod.ts"
+
+# Ant Design Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/ai)](https://jsr.io/@preact-icons/ai)
+
+**License** [MIT](https://opensource.org/licenses/MIT)
+
+**Project** [https://github.com/ant-design/ant-design-icons](https://github.com/ant-design/ant-design-icons)
+
+[See available icons here](https://react-icons.deno.dev/ai)
+
+## install packahe
+
+```bash
+deno add @preact-icons/ai
+dnpx jsr add @preact-icons/ai
+pnpm dlx jsr add @preact-icons/ai
+bunx jsr add @preact-icons/ai
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { AiFillAccountBook } from "react-icons/ai"
+import { AiFillAccountBook } from "@preact-icons/ai"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook.ts"
+import { AiFillAccountBook } from "react-icons/ai/AiFillAccountBook"
 ```
 
 or using default export
