@@ -1,4 +1,6 @@
-# Ant Design Icons icons for deno / Preact
+# Ant Design Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/ai)](https://jsr.io/@preact-icons/ai)
 
 **License** [MIT](https://opensource.org/licenses/MIT)
 
