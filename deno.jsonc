@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/ai",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./AiFillAccountBook": "./ico/AiFillAccountBook.ts",
